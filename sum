@@ -1,0 +1,26 @@
+package src;
+
+import java.util.Scanner;
+public class sum {
+    public static void main(String []args){
+        System.out.println("enter the two no for add .");
+        Scanner sc =  new Scanner(System.in);
+        int n= sc.nextInt();
+        sc = new Scanner(System.in);
+        int m =sc.nextInt();
+        int sum = n+m;
+        System.out.println("sum of two no. is " +sum);
+        System.out.println("enter the no. for subtraction");
+        sc= new Scanner(System.in);
+        int i=sc.nextInt();
+        int j =sc.nextInt();
+        int subtraction = i-j;
+        System.out.println("subtraction of two no. is" +subtraction);
+        sc = new Scanner(System.in);
+        System.out .println("enter the  for multiplication");
+        int  k =sc.nextInt();
+        int l =sc.nextInt();
+        int multiple =k*l;
+        System.out.println("the multiplication of two no.is " +multiple);
+    }
+}
