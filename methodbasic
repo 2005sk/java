@@ -1,0 +1,21 @@
+package src;
+
+public class stringmethod {
+     void sum(){
+
+        System.out.println("sum is " );
+
+
+        System.out.println("a+b" );
+    return;
+    }
+    //calling non static method to static method
+    public static void main(String[]args){
+         stringmethod obj = new stringmethod();
+         obj.sum();
+        //sum();
+      //  System.out.println("sum is " );
+        //sum();
+    }
+
+}
