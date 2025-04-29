@@ -1,0 +1,18 @@
+public class stringVariable {
+
+        public static void main(String[] args) {
+        String name="sanskriti";
+        System.out.println(name);
+        int age = 20;
+        System.out.println(age);
+        double desiredSalary =9000.689;
+        System.out.println(desiredSalary);
+        char gender = 'f';
+        System.out.println(gender);
+        boolean lookingForJob =false;
+        System.out.println(lookingForJob);
+
+    }
+    }string
+
+
