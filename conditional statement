@@ -1,0 +1,18 @@
+public class class3 {
+    public static void main(String[] args) {
+        System.out.println("enter the integer");
+        Scanner in = new Scanner(System.in);
+        int a = in.nextInt();
+        if (a < 0) {
+            System.out.println("the no.is negative");
+        }
+        else if(a == 0){
+            System.out.println("the no.is zero");
+        }
+
+        else{
+            System.out.println("the no. is positive ");
+        }
+
+    }
+}
