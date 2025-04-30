@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class loops {
+    public static void main(String[]args){
+        int sum=0;
+        System.out.println("enter the natural number till you have to print ");
+        Scanner sc = new Scanner(System.in);
+        int  n =sc.nextInt();
+        for (int i=1;i<=n;i++){
+            sum =sum+i ;
+        }
+        System.out.println("the sum of natural no. is " +sum);
+    }
+}
+
+
