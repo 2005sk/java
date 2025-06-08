@@ -1,0 +1,20 @@
+package src;
+
+import java.util.Scanner;
+
+public class ifstatement {
+    public static void main(String[]args) {
+        System.out.println("enter the no. for sum");
+        Scanner Scanner = new Scanner(System.in);
+        int num1 = Scanner.nextInt();
+        int num2 = Scanner.nextInt();
+        int sum=0;
+        if(num1==num2){
+            sum =(num1+num2)*2;
+        }
+        else{
+            sum=num1+num2;
+        }
+        System.out.println("sum of the number is "+sum );
+    }
+}
