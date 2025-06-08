@@ -1,0 +1,32 @@
+package src;
+
+import java.util.Scanner;
+
+public class quadraticEquation {
+    public static void main(String[] args) {
+        System.out.println("enter the value of a");
+        Scanner Scanner =new Scanner(System.in);
+    int a= Scanner.nextInt();
+        System.out.println("enter the value of b");
+    int b= Scanner.nextInt();
+        System.out.println("enter the value of c");
+    int c= Scanner.nextInt();
+    int discriminant = (b*b)-(4*a*c);
+        System.out.println("the discriminant is "+discriminant);
+    if(discriminant<0){
+        System.out.println("The equation has no real root");
+    }
+    else if(discriminant==0){
+        System.out.println("the equation has real root and equal ");
+         double  root= (-b+discriminant)/2*a ;
+        System.out.println(root);
+    }
+    else {
+        System.out.println("the equation has real and unequal roots  ");
+         double x1= (-b+discriminant)/2*a;
+         double  x2= (-b-discriminant)/2*a;
+        System.out.println(x1);
+        System.out.println(x2);
+    }
+}
+}
