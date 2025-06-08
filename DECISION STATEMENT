@@ -1,0 +1,29 @@
+package src;
+
+import java.util.Scanner;
+
+public class sumof3 {
+    public static void main(String[]args){
+        int sum =1;
+        Scanner Scanner =new  Scanner (System.in);
+        System.out.println("enter the three number ");
+        int a= Scanner.nextInt();
+        int b= Scanner.nextInt();
+        int c= Scanner.nextInt();
+        if (a==7){
+            sum =b*c;
+            System.out.println(sum);
+        }
+        else if(c==7){
+            sum= -1;
+            System.out.println(sum);
+        }
+        else if(b==7){
+            System.out.println(c);
+        }
+        else{
+            sum = a*b*c;
+            System.out.println(sum);
+        }
+    }
+}
