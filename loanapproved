@@ -1,0 +1,35 @@
+package src;
+
+import java.util.Scanner;
+
+public class bankaccount {
+    public static void main(String[] args) {
+        Scanner Scan = new Scanner(System.in);
+        String loantype1 ="car loan";
+        String loanType2 ="  house loan";
+        String loanType3=" business loan";
+        System.out.println("enter the account number of 4 digit and the first digit should be 1");
+         double accountno  = Scan.nextInt();
+        System.out.println("enter account balance ");
+          double accountBalance = Scan.nextInt();
+        System.out.println("enter salary" );
+          double  salary= Scan.nextInt();
+        System.out.println("enter loan type ");
+         String inputLine =Scan.next();
+        System.out.println("enter loan amount ");
+        double expectedloanamount= Scan.nextInt();
+        System.out.println("enter expected no.of EMIs");
+         double  expectednoofEMIs= Scan.nextInt();
+         if(accountBalance<= 1000){
+             System.out.println("invalid  account balance is less than 1000rs.");
+         } else if (salary>25000) {
+             System.out.println("customer is eligible for car loan and eligible loan is 50000 and no. of EMIs is 36");
+         }
+         else if (salary<50000 && salary>25000){
+             System.out.println("customer is eligible for house  loan and eligible loan is 0060000 and no. of EMIs is 60");
+         }
+         else if (salary<75000 && salary> 50000){
+             System.out.println("customer is eligible for car loan and eligible loan is 7500000 and no. of EMIs is 84");
+         }
+    }
+}
