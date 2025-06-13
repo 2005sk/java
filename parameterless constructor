@@ -1,0 +1,21 @@
+package src;
+ class customer {
+    public String customerId;
+    public String customerName;
+    public double contactNumber;
+    public String address;
+// constructor
+    public customer() {
+        System.out.println("calling paramrter less constructor ");
+    }
+}
+public class parameterlessConstructor {
+    public static void main(String[] args) {
+        customer customer1 = new customer();
+        System.out.println(customer1.customerId);
+        System.out.println(customer1.customerName);
+        System.out.println(customer1.contactNumber);
+        System.out.println(customer1.address);
+       customer customer2 = new customer();
+    }
+}
